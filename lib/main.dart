@@ -16,7 +16,13 @@ class MyApp extends StatelessWidget {
 
           ),
           body: Center(
-            child: Text("this is center"),
+
+            child:  Column(
+
+              children: [
+                Text("this is center"),
+              ],
+            )
 
           ),
         )
