@@ -15,16 +15,7 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.red[600],
 
           ),
-          body: Center(
 
-            child:  Column(
-
-              children: [
-                Text("this is center"),
-              ],
-            )
-
-          ),
         )
     );
   }
